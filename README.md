@@ -46,6 +46,7 @@ cd ~
 git clone https://github.com/Arkq/bluez-alsa.git
 cd bluez-alsa
 
+autoreconf --install
 ./configure
 make -j4
 sudo make install
